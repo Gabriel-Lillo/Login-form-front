@@ -21,10 +21,12 @@ const Login = () => {
                             <label className="login-field-icon fui-lock" for="login-pass"></label>
                         </div>
 
-                        <a className="btn btn-primary btn-large btn-block" id="btn1" href="">Login</a>
+                        <a className="btn btn-primary btn-large btn-block" href="">Login</a>
+                        <a className="login-link" href="/signup">Sign Up</a>
+                        
+                        
                         {/* <a className="btn btn-primary btn-large btn-block" id="btn2" href="/signup">Sign up</a> */}
-                        {/* <a className="login-link" href="">Sign Up</a> */}
-                        <Link to="/signup">Sign up</Link>
+                        {/* <Link to="/signup">Sign up</Link> */}
                     </div>
                 </div>
             </div>

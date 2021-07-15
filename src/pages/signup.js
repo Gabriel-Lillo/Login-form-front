@@ -7,8 +7,6 @@ const SignUp = () => {
                 <div className="logo">
                     <h1>Easyt-app</h1>
                 </div>
-
-
                 <div className="container">
                     <form className="row g-3">
                         <div className="col-md-6">
@@ -27,18 +25,18 @@ const SignUp = () => {
                             <label for="inputAddress2" className="form-label">Contraseña</label>
                             <input type="text" className="form-control" id="inputAddress2" placeholder="" />
                         </div>
-                        <div className="col-md-6">
-                            <label for="inputCity" className="form-label">()</label>
+                        <div className="col-md-4">
+                            <label for="inputCity" className="form-label">Rut</label>
                             <input type="text" className="form-control" id="inputCity" />
                         </div>
                         <div className="col-md-4">
-                            <label for="inputState" className="form-label">()</label>
+                            <label for="inputState" className="form-label">Servicio</label>
                             <select id="inputState" className="form-select">
                                 <option selected>Choose...</option>
                                 <option>...</option>
                             </select>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-4">
                             <label for="inputZip" className="form-label">()</label>
                             <input type="text" className="form-control" id="inputZip" />
                         </div>
@@ -46,7 +44,7 @@ const SignUp = () => {
                             <div className="form-check">
                                 <input className="form-check-input" type="checkbox" id="gridCheck" />
                                 <label className="form-check-label" for="gridCheck">
-                                    Check me out
+                                    Estoy de acuerdo
                                 </label>
                             </div>
                         </div>
@@ -55,15 +53,8 @@ const SignUp = () => {
                         </div>
                     </form>
 
-
-
-
-
                 </div>
-
-
             </div>
-
         </>
     )
 }

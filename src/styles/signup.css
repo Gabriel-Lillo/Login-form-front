@@ -1,6 +1,6 @@
 .box {
     margin: auto;
-    background-color: white;
+    background-color: #fff;
     width: 800px;
     height: 600px;
     border-radius: 50px;
@@ -14,3 +14,4 @@
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
